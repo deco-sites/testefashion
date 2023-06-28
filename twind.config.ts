@@ -42,15 +42,15 @@ const options: Omit<Options, "selfURL"> = {
       colors: {
         "default": "#FFFFFF",
         "header": "#FFFFFF",
-        "badge": "#8C3D3D", // shopping cart tem isso tambem
-        "footer": "#003232",
+        "badge": "#000000", // shopping cart tem isso tambem
+        "footer": "#2122e0",
         "interactive": "#161616",
         "interactive-inverse": "#FFFFFF",
         "hover": "rgba(0, 0, 0, 0.04)",
         "hover-inverse": "rgba(255, 255, 255, 0.4)",
       },
       textColor: {
-        "default": "#161616",
+        "default": "#000000",
         "default-inverse": "#FFFFFF",
         "subdued": "#66736C",
         "subdued-inverse": "#C6C6C6",
@@ -123,9 +123,9 @@ const options: Omit<Options, "selfURL"> = {
     screens: {
       sm: "640px",
       md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      "2xl": "1536px",
+      lg: "1124px",
+      xl: "1440px",
+      "2xl": "1836px",
     },
   },
   preflight: (preflight) => ({

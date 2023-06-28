@@ -7,30 +7,30 @@ import { DecoManifest } from "$live/types.ts";
 
 import * as $$$$0 from "./routes/api/[...catchall].tsx";
 import * as $$$$1 from "./routes/_app.tsx";
-import * as $$$$$0 from "./islands/ShippingSimulation.tsx";
+import * as $$$$$0 from "./islands/AddToCartButton.tsx";
 import * as $$$$$1 from "./islands/HeaderButton.tsx";
-import * as $$$$$2 from "./islands/SendEventButton.tsx";
+import * as $$$$$2 from "./islands/HeaderModals.tsx";
 import * as $$$$$3 from "./islands/HeaderSearchMenu.tsx";
-import * as $$$$$4 from "./islands/AddToCartButton.tsx";
-import * as $$$$$5 from "./islands/HeaderModals.tsx";
-import * as $$$$$6 from "./islands/SliderJS.tsx";
-import * as $$$$$7 from "./islands/ProductImageZoom.tsx";
-import * as $$$$$8 from "./islands/ViewSendEvent.tsx";
-import * as $$$$$9 from "./islands/SearchControls.tsx";
-import * as $$$$$$$$0 from "./sections/LinkTree.tsx";
-import * as $$$$$$$$1 from "./sections/DesignSystem.story.tsx";
-import * as $$$$$$$$2 from "./sections/Features.tsx";
-import * as $$$$$$$$3 from "./sections/BannerPLP.tsx";
-import * as $$$$$$$$4 from "./sections/BannerGrid.tsx";
-import * as $$$$$$$$5 from "./sections/SearchResult.tsx";
-import * as $$$$$$$$6 from "./sections/ProductShelf.tsx";
-import * as $$$$$$$$7 from "./sections/Footer.tsx";
-import * as $$$$$$$$8 from "./sections/CookieConsent.tsx";
-import * as $$$$$$$$9 from "./sections/Header.tsx";
+import * as $$$$$4 from "./islands/ProductImageZoom.tsx";
+import * as $$$$$5 from "./islands/SearchControls.tsx";
+import * as $$$$$6 from "./islands/SendEventButton.tsx";
+import * as $$$$$7 from "./islands/ShippingSimulation.tsx";
+import * as $$$$$8 from "./islands/SliderJS.tsx";
+import * as $$$$$9 from "./islands/ViewSendEvent.tsx";
+import * as $$$$$$$$0 from "./sections/BannerGrid.tsx";
+import * as $$$$$$$$1 from "./sections/BannerPLP.tsx";
+import * as $$$$$$$$2 from "./sections/Carousel.tsx";
+import * as $$$$$$$$3 from "./sections/CookieConsent.tsx";
+import * as $$$$$$$$4 from "./sections/DesignSystem.story.tsx";
+import * as $$$$$$$$5 from "./sections/Features.tsx";
+import * as $$$$$$$$6 from "./sections/Footer.tsx";
+import * as $$$$$$$$7 from "./sections/Header.tsx";
+import * as $$$$$$$$8 from "./sections/Highlights.tsx";
+import * as $$$$$$$$9 from "./sections/LinkTree.tsx";
 import * as $$$$$$$$10 from "./sections/ProductDetails.tsx";
-import * as $$$$$$$$11 from "./sections/Highlights.tsx";
-import * as $$$$$$$$12 from "./sections/WhatsApp.tsx";
-import * as $$$$$$$$13 from "./sections/Carousel.tsx";
+import * as $$$$$$$$11 from "./sections/ProductShelf.tsx";
+import * as $$$$$$$$12 from "./sections/SearchResult.tsx";
+import * as $$$$$$$$13 from "./sections/WhatsApp.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_editorData from "$live/routes/live/editorData.ts";
@@ -98,32 +98,32 @@ const manifest: DecoManifest = {
     "./routes/[...catchall].tsx": $live_catchall,
   },
   "islands": {
-    "./islands/ShippingSimulation.tsx": $$$$$0,
+    "./islands/AddToCartButton.tsx": $$$$$0,
     "./islands/HeaderButton.tsx": $$$$$1,
-    "./islands/SendEventButton.tsx": $$$$$2,
+    "./islands/HeaderModals.tsx": $$$$$2,
     "./islands/HeaderSearchMenu.tsx": $$$$$3,
-    "./islands/AddToCartButton.tsx": $$$$$4,
-    "./islands/HeaderModals.tsx": $$$$$5,
-    "./islands/SliderJS.tsx": $$$$$6,
-    "./islands/ProductImageZoom.tsx": $$$$$7,
-    "./islands/ViewSendEvent.tsx": $$$$$8,
-    "./islands/SearchControls.tsx": $$$$$9,
+    "./islands/ProductImageZoom.tsx": $$$$$4,
+    "./islands/SearchControls.tsx": $$$$$5,
+    "./islands/SendEventButton.tsx": $$$$$6,
+    "./islands/ShippingSimulation.tsx": $$$$$7,
+    "./islands/SliderJS.tsx": $$$$$8,
+    "./islands/ViewSendEvent.tsx": $$$$$9,
   },
   "sections": {
-    "deco-sites/testefashion/sections/LinkTree.tsx": $$$$$$$$0,
-    "deco-sites/testefashion/sections/DesignSystem.story.tsx": $$$$$$$$1,
-    "deco-sites/testefashion/sections/Features.tsx": $$$$$$$$2,
-    "deco-sites/testefashion/sections/BannerPLP.tsx": $$$$$$$$3,
-    "deco-sites/testefashion/sections/BannerGrid.tsx": $$$$$$$$4,
-    "deco-sites/testefashion/sections/SearchResult.tsx": $$$$$$$$5,
-    "deco-sites/testefashion/sections/ProductShelf.tsx": $$$$$$$$6,
-    "deco-sites/testefashion/sections/Footer.tsx": $$$$$$$$7,
-    "deco-sites/testefashion/sections/CookieConsent.tsx": $$$$$$$$8,
-    "deco-sites/testefashion/sections/Header.tsx": $$$$$$$$9,
+    "deco-sites/testefashion/sections/BannerGrid.tsx": $$$$$$$$0,
+    "deco-sites/testefashion/sections/BannerPLP.tsx": $$$$$$$$1,
+    "deco-sites/testefashion/sections/Carousel.tsx": $$$$$$$$2,
+    "deco-sites/testefashion/sections/CookieConsent.tsx": $$$$$$$$3,
+    "deco-sites/testefashion/sections/DesignSystem.story.tsx": $$$$$$$$4,
+    "deco-sites/testefashion/sections/Features.tsx": $$$$$$$$5,
+    "deco-sites/testefashion/sections/Footer.tsx": $$$$$$$$6,
+    "deco-sites/testefashion/sections/Header.tsx": $$$$$$$$7,
+    "deco-sites/testefashion/sections/Highlights.tsx": $$$$$$$$8,
+    "deco-sites/testefashion/sections/LinkTree.tsx": $$$$$$$$9,
     "deco-sites/testefashion/sections/ProductDetails.tsx": $$$$$$$$10,
-    "deco-sites/testefashion/sections/Highlights.tsx": $$$$$$$$11,
-    "deco-sites/testefashion/sections/WhatsApp.tsx": $$$$$$$$12,
-    "deco-sites/testefashion/sections/Carousel.tsx": $$$$$$$$13,
+    "deco-sites/testefashion/sections/ProductShelf.tsx": $$$$$$$$11,
+    "deco-sites/testefashion/sections/SearchResult.tsx": $$$$$$$$12,
+    "deco-sites/testefashion/sections/WhatsApp.tsx": $$$$$$$$13,
     "$live/sections/PageInclude.tsx": i2$$$9,
     "deco-sites/std/sections/configYourViews.global.tsx": i2$$$0,
     "deco-sites/std/sections/SEO.tsx": i2$$$1,
